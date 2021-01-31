@@ -33,16 +33,14 @@ namespace Application\Controller{
   class IndexController extends AbstractActionController
   {
       public function indexAction()
-      {
-          $user=unserialize(base64_decode($this->params()->fromPost('user')));
-          var_dump($user);
+          $user=unserialize($this->params()->fromPost('user'));
           die("hello {$user->name}");
           return new ViewModel();
       }
    }
 }
 ```
-You can test it by running the curl commented in teh code fragment above and you will get the message "hello asd".
+You can test it by running the curl commented in the code fragment above and you will get the message "hello asd".
 
 ## Exploitation
 * Set up a netcat listner(e.g. nc -vlp 8888)
