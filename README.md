@@ -1,4 +1,4 @@
-# deserial-killer-zf3
+# Pickled Zend
 
 Zend Framework 3 deserialisation reverse shell based on CVE-2021-3007 and Ling-Yizhous PoC at https://github.com/Ling-Yizhou/zendframework3-/blob/main/zend%20framework3%20%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%20rce.md
 
