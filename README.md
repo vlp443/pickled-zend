@@ -3,7 +3,7 @@
 Zend Framework 3 deserialisation reverse shell based on CVE-2021-3007 and Ling-Yizhous PoC at https://github.com/Ling-Yizhou/zendframework3-/blob/main/zend%20framework3%20%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%20rce.md
 
 ## Test Environment
-
+Assuming that your server has bash installed:
 composer create-project zendframework/skeleton-application
 
 Update module/Application/src/Controller/IndexController.php to something like this:
